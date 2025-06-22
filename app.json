@@ -20,9 +20,10 @@
       "package": "com.sukhmani1.ReactNativeExpo"
     },
     "web": {
-      "bundler": "metro",
+      "bundler": "webpack",
       "output": "static",
-      "favicon": "./assets/images/favicon.png"
+      "favicon": "./assets/images/favicon.png",
+      "basePath": "/ReactNativeExpo"
     },
     "plugins": [
       "expo-router",
